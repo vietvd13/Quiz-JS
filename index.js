@@ -74,6 +74,7 @@ function showResult() {
 
         if(answerSelect === questions.correctAnswer) {
             point = point + 1;
+            listquestion[index].style.color = 'green';
         } else {
             listquestion[index].style.color = 'red';
         }
